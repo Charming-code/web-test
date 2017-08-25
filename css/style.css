@@ -1,0 +1,71 @@
+body{
+	background: url(../img/page1.gif) no-repeat right 20px,
+	url(../img/bg.jpg) no-repeat right bottom,
+	url(../img/page3.jpg) no-repeat left top;
+	background-size: auto,74% 79.5%, auto;
+	color: #000;
+	font-size: 12px;
+	font-family: "新宋体",arial,helvetica,sans-serif;
+	-webkit-column-count:3;
+    -moz-column-count:3;
+    column-count:3;           /*元素中的文本分为三列*/
+    -webkit-column-gap:3em;
+    -moz-column-gap:3em;
+    column-gap:3em;                         /*规定列间的间隔*/
+    line-height:3em;
+    -webkit-column-rule:double 3px gray;
+    -moz-column-rule:double 3px gray;
+    column-rule:double 3px gray;          /*规定列之间的宽度、样式和颜色规则*/
+}
+.allcols {
+    -webkit-column-span:all;
+    -moz-column-span:all;
+    column-span:all;                /*横跨所有的列*/
+}
+h1, h2, h3 {
+    text-align:center;
+    margin-bottom:1em;
+}
+h2 {
+    color:#666;
+    text-decoration:underline;
+}
+h3 {
+    letter-spacing:0.4em;                 /*字母间距*/
+    font-size:1.4em;
+}
+p{margin: 0;
+  line-height: 1.8em;
+}
+.p1, .p2, .p3 { text-indent:2em; }          /*首行空2em*/
+#quickSummary .p2 { text-align:right; }
+#quickSummary .p1 { color:#444; }
+#quickSummary { margin:4em; }
+a { color:#222; }
+a:hover {
+    color:#000;
+    text-decoration:underline;
+}
+.first:first-letter {
+    font-size:50px;
+    float:left;                       /* 向左浮动*/
+    margin-right:6px;
+    padding:2px;
+    font-weight:bold;
+    line-height:1em;
+    background:#000;
+    color:#fff;
+    text-indent:0;
+}
+#preamble img {
+    height:260px;
+    -webkit-column-span:all;
+    -moz-column-span:all;
+    column-span:all;
+}
+#container {
+    background:rgba(255, 255, 255, 0.8);
+    padding:0 1em;
+    padding-bottom:50px;
+
+}
