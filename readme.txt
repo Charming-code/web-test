@@ -1,1 +1,1 @@
-This is a simple web design.
+这是一个用html+css+javascript设计的静态前端网页
